@@ -21,11 +21,11 @@ export const appConfig = {
 
     webhookSecret: env.MX_SPACE_WEBHOOK_SECRET,
 
-    watchGroupIds: [-1001570490524, -1001918532532],
-    watchChannelId: -1001918532532,
+    watchGroupIds: [-1001752013670],
+    watchChannelId: -1001819189781,
   },
 
-  ownerId: 548935420,
+  ownerId: 1857614828,
 
   bot: {
     token: env.TG_BOT_TOKEN,
@@ -33,12 +33,12 @@ export const appConfig = {
 
   githubHook: {
     secret: env.GH_WEBHOOK_SECRET,
-    watchGroupIds: [-1001918532532],
+    watchGroupIds: [-1001819189781],
   },
   bilibili: {
     live: {
-      id: 1434499,
+      id: 23706226,
     },
-    watchGroupIds: [-1001570490524, -1001918532532],
+    watchGroupIds: [-1001819189781],
   },
 }
