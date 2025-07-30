@@ -21,7 +21,10 @@ export const appConfig = {
 
     webhookSecret: env.MX_SPACE_WEBHOOK_SECRET,
 
-    watchGroupIds: [-1001752013670],
+    watchGroupIds: [
+      // -1001752013670,
+      -1001819189781
+    ],
     watchChannelId: -1001819189781,
   },
 
