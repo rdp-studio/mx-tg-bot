@@ -23,9 +23,10 @@ export const appConfig = {
 
     watchGroupIds: [
       // -1001752013670,
-      -1001819189781
+      // -1001819189781,
+      -1003404653209
     ],
-    watchChannelId: -1001819189781,
+    watchChannelId: -1003404653209,
   },
 
   ownerId: 1857614828,
@@ -36,7 +37,7 @@ export const appConfig = {
 
   githubHook: {
     secret: env.GH_WEBHOOK_SECRET,
-    watchGroupIds: [-1001819189781],
+    watchGroupIds: [-1003404653209],
   },
   bilibili: {
     live: {
