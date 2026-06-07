@@ -18,7 +18,8 @@ async function initTgBot(): Promise<Telegraf> {
   // extendTgBotEvent(tgBot)
 
   tgBot.start((ctx) => {
-    ctx.reply("Hi");
+    const chatId = ctx.chat?.id;
+    ctx.reply(`Hi, chatID: ${chatId}`);
   });
 
   tgBot.launch();
